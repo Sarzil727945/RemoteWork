@@ -15,7 +15,6 @@ const Scanning = () => {
                     setIsLoading(false)
                })
      }, [])
-     console.log(scanningData);
      return (
           <div >
                <div className=' mt-12'>
@@ -39,6 +38,11 @@ const Scanning = () => {
                                    </div>
                               </div>
                          </div>)
+                    }
+                    {
+                         isLoading && <div className="text-center my-60">
+                              <span> loading....</span>
+                         </div>
                     }
                     <button className=" bg-[#FFCE38] text-white font-bold p-3 rounded-[8px]">Begin Cargo Packing</button>
 

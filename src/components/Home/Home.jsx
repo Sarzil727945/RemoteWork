@@ -38,14 +38,14 @@ const Main = () => {
                     </div>
                </div>
                <div className=' flex  justify-center'>
-                    <div className="card w-[333px] h-[155px] rounded-[10px] bg-base-100 shadow-2xl me-5 drop-shadow-2xl">
+                    <Link to='selection' className="card w-[333px] h-[155px] rounded-[10px] bg-base-100 shadow-2xl me-5 drop-shadow-2xl">
                          <div className="card-body relative">
                               <h2 className="card-title text-[#828282] font-bold">ULD Selection</h2>
                               <div className=' absolute bottom-[-18px] start-[-10px]'>
                                    <img src={box} alt="" />
                               </div>
                          </div>
-                    </div>
+                    </Link>
                          <Link to='/scanning' className="card w-[333px] h-[155px] rounded-[10px] bg-base-100 shadow-2xl drop-shadow-2xl">
                               <div className="card-body relative">
                                    <h2 className="card-title text-[#828282] font-bold">Package Scanning</h2>

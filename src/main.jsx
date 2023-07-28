@@ -8,6 +8,7 @@ import {
 import Home from './components/Home/Home';
 import Main from './Laout/Main';
 import Scanning from './components/Scanning/Scanning';
+import Selection from './components/Selection/Selection';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/scanning",
         element: <Scanning></Scanning>
+      },
+      {
+        path: "/selection",
+        element: <Selection></Selection>
       },
     ]
   },

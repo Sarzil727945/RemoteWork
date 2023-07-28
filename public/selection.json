@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "01",
+        "image": "https://i.ibb.co/T4pM18k/Screenshot-2023-01-11-204038-3.png",
+        "ID": "ID 1656446",
+        "weight": "50 kg",
+        "volume": "16 cm3"
+    },
+    {
+        "_id": "02",
+        "image": "https://i.ibb.co/kMzfGKZ/Screenshot-2023-01-11-204038-2.png",
+        "ID": "ID 1656447",
+        "weight": "30 kg",
+        "volume": "16 cm3"
+    },
+    {
+        "_id": "03",
+        "image": "https://i.ibb.co/mBrHDpV/Screenshot-2023-01-11-204038-1.png",
+        "ID": "ID 1656448",
+        "weight": "45 kg",
+        "volume": "16 cm3"
+    }
+ 
+]
