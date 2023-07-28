@@ -3,6 +3,7 @@ import './Scanning.css'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import scanning from '../../assets/scanning.png'
+import { Link } from 'react-router-dom';
 
 const Scanning = () => {
      const [isLoading, setIsLoading] = useState(true);
@@ -44,7 +45,7 @@ const Scanning = () => {
                               <span> loading....</span>
                          </div>
                     }
-                    <button className=" bg-[#FFCE38] text-white font-bold p-3 rounded-[8px]">Begin Cargo Packing</button>
+                    <Link to={`/packingPlan1/${scanningData[0]?._id}`} className=" bg-[#FFCE38] text-white font-bold p-3 rounded-[8px]">Begin Cargo Packing</Link>
 
                </div>
           </div>
