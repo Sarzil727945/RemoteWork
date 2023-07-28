@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css'
+import './Home.css'
 import { MdLocationOn } from 'react-icons/md';
 import icon1 from '../../assets/icon1.png'
 import icon2 from '../../assets/Notification.svg'
@@ -10,6 +10,7 @@ import bgP from '../../assets/pBg.png'
 import cardP1 from '../../assets/cardP1.png'
 import cardP2 from '../../assets/cardP2.png'
 import leftA from '../../assets/leftarror.png'
+import { Link } from 'react-router-dom';
 const Main = () => {
      return (
           <div className='lg:mx-[100px] mx-[20px] mt-10'>
@@ -45,14 +46,14 @@ const Main = () => {
                               </div>
                          </div>
                     </div>
-                    <div className="card w-[333px] h-[155px] rounded-[10px] bg-base-100 shadow-2xl drop-shadow-2xl">
-                         <div className="card-body relative">
-                              <h2 className="card-title text-[#828282] font-bold">Package Scanning</h2>
-                              <div className=' absolute bottom-[-18px] right-[-10px]'>
-                                   <img src={windos} alt="" />
+                         <Link to='/scanning' className="card w-[333px] h-[155px] rounded-[10px] bg-base-100 shadow-2xl drop-shadow-2xl">
+                              <div className="card-body relative">
+                                   <h2 className="card-title text-[#828282] font-bold">Package Scanning</h2>
+                                   <div className=' absolute bottom-[-18px] right-[-10px]'>
+                                        <img src={windos} alt="" />
+                                   </div>
                               </div>
-                         </div>
-                    </div>
+                    </Link>
                </div>
                <div className=' mt-24 lg:mx-10 mb-2'>
                     <h1 className=' font-bold text-2xl mb-8'>Notifications</h1>
