@@ -9,6 +9,7 @@ import box from '../../assets/box.png'
 import bgP from '../../assets/pBg.png'
 import cardP1 from '../../assets/cardP1.png'
 import cardP2 from '../../assets/cardP2.png'
+import cardP3 from '../../assets/cardP3.png'
 import leftA from '../../assets/leftarror.png'
 import { Link } from 'react-router-dom';
 const Main = () => {
@@ -56,9 +57,9 @@ const Main = () => {
                     </Link>
                </div>
                <div className=' mt-24 lg:mx-10 mb-2'>
-                    <h1 className=' font-bold text-2xl mb-8'>Notifications</h1>
-                    <div className=' lg:flex mb-6'>
-                         <div className="card w-full shadow-2xl lg:me-8 bg-[#FFCC30] lg:mb-0 mb-7">
+                    <h1 className=' font-bold text-2xl mb-8 lg:ms-[268px]'>Notifications</h1>
+                    <div className='  mb-6'>
+                         <div className="card w-full  lg:w-[700px] shadow-2xl  bg-[#FFCC30]  mx-auto">
                               <div className="card-body ">
                                    <div className='flex items-center justify-between'>
                                         <div className=' flex items-center'>
@@ -83,7 +84,7 @@ const Main = () => {
 
                               </div>
                          </div>
-                         <div className="card w-full shadow-2xl bg-[#e5e6e7]">
+                         <div className="card w-full lg:w-[700px] my-8 shadow-2xl bg-[#e5e6e7] mx-auto">
                               <div className="card-body ">
                                    <div className='flex items-center justify-between'>
                                         <div className=' flex items-center justify-between'>
@@ -98,6 +99,29 @@ const Main = () => {
                                              </div>
                                              <div className=' font-bold lg:text-3xl lg:ms-7 text-2xl ms-2'>
                                                   <h1>0 Issues</h1>
+                                             </div>
+                                        </div>
+                                        <div>
+                                             <img className=' w-12 h-12' src={leftA} alt="" />
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div className="card w-full lg:w-[700px] shadow-2xl bg-[#A3FF48] mx-auto">
+                              <div className="card-body ">
+                                   <div className='flex items-center justify-between'>
+                                        <div className=' flex items-center justify-between'>
+                                             <div className=' relative'>
+                                                  <div>
+                                                       <img className=' w-24 h-24' src={bgP} alt="" />
+                                                  </div>
+                                                  <div className=' absolute bottom-[21px] start-[24px]'>
+                                                       <img className=' w-12 h-12' src={cardP3} alt="" />
+
+                                                  </div>
+                                             </div>
+                                             <div className=' font-bold lg:text-3xl lg:ms-7 text-2xl ms-2'>
+                                                  <h1>Cargo Just Send</h1>
                                              </div>
                                         </div>
                                         <div>
