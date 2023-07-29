@@ -1,4 +1,2 @@
-# restaurant-client-side
 # RemoteWork
-# RemoteWork
-"# RemoteWork" 
+# LiveSite: https://remote-works.netlify.app/

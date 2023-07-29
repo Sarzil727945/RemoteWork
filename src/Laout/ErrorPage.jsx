@@ -28,7 +28,7 @@ const ErrorPage = () => {
 
                     </div>
                   </div>
-                  <div className=' font-bold lg:ms-7 text-2xl '>
+                  <div className=' font-bold ms-5 text-2xl '>
                     <h1>Cargo is out of ULD Bounds!</h1>
                   </div>
                 </div>
