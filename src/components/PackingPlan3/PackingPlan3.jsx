@@ -4,21 +4,16 @@ import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const PackingPlan3 = () => {
-     const { id } = useParams()
      const [isLoading, setIsLoading] = useState(true);
-     const [scanningData, setScanningData] = useState([])
      const [selectData, setSelectData] = useState([])
      useEffect(() => {
-          fetch('../../../public/scanning.json')
+          fetch('scanning.json')
                .then(res => res.json())
                .then(data => {
-                    setScanningData(data)
-                    const selectData = data.filter(f => f._id === id)
-                    setSelectData(selectData);
+                    setSelectData([data[2]]);
                     setIsLoading(false)
                })
      }, [])
-     console.log(selectData);
      return (
           <div>
                 {
@@ -50,7 +45,7 @@ const PackingPlan3 = () => {
                     </div>
                }
                <div className=' text-center my-12'>
-                    <Link to={`/packingPlan4/${scanningData[3]?._id}`} className=" bg-[#FFCE38] text-white font-bold py-3 px-10 rounded-[8px]">Next Package</Link>
+                    <Link to={`/packingPlan4`} className=" bg-[#FFCE38] text-white font-bold py-3 px-10 rounded-[8px]">Next Package</Link>
                </div>
           </div>
      );

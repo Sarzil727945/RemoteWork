@@ -4,21 +4,16 @@ import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const PackingPlan5 = () => {
-     const { id } = useParams()
      const [isLoading, setIsLoading] = useState(true);
-     const [scanningData, setScanningData] = useState([])
      const [selectData, setSelectData] = useState([])
      useEffect(() => {
-          fetch('../../../public/scanning.json')
+          fetch('scanning.json')
                .then(res => res.json())
                .then(data => {
-                    setScanningData(data)
-                    const selectData = data.filter(f => f._id === id)
-                    setSelectData(selectData);
+                    setSelectData([data[4]]);
                     setIsLoading(false)
                })
      }, [])
-     console.log(selectData);
      return (
           <div>
                  {
@@ -50,7 +45,7 @@ const PackingPlan5 = () => {
                     </div>
                }
                <div className=' text-center my-12'>
-                    <Link className=" bg-[#FFCE38] text-white font-bold p-3  rounded-[8px]">Check Completed Cargo</Link>
+                    <Link to='/greatJob' className=" bg-[#FFCE38] text-white font-bold p-3  rounded-[8px]">Check Completed Cargo</Link>
                </div>
           </div>
      );

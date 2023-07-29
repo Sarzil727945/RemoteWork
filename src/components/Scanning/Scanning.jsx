@@ -45,7 +45,7 @@ const Scanning = () => {
                               <span> loading....</span>
                          </div>
                     }
-                    <Link to={`/packingPlan1/${scanningData[0]?._id}`} className=" bg-[#FFCE38] text-white font-bold p-3 rounded-[8px]">Begin Cargo Packing</Link>
+                    <Link to={`/packingPlan1`} className=" bg-[#FFCE38] text-white font-bold p-3 rounded-[8px]">Begin Cargo Packing</Link>
 
                </div>
           </div>

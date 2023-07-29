@@ -1,6 +1,6 @@
 [
      {
-         "_id": "01",
+         "_id": "1",
          "image": "https://i.ibb.co/sHDNMdH/box-2-1.png",
          "ID": "ID 1656446",
          "weight": "50 kg",
@@ -8,7 +8,7 @@
          "packingImg": "https://i.ibb.co/XCXmfp7/FirstBox.png"
      },
      {
-         "_id": "02",
+         "_id": "2",
          "image": "https://i.ibb.co/sHDNMdH/box-2-1.png",
          "ID": "ID 1656447",
          "weight": "30 kg",
@@ -16,7 +16,7 @@
          "packingImg": "https://i.ibb.co/HKR9Vnm/Second-BOx.png"
      },
      {
-         "_id": "03",
+         "_id": "3",
          "image": "https://i.ibb.co/sHDNMdH/box-2-1.png",
          "ID": "ID 1656448",
          "weight": "45 kg",
@@ -24,7 +24,7 @@
          "packingImg": "https://i.ibb.co/2YG6g2m/ThirdBox.png"
      },
      {
-         "_id": "04",
+         "_id": "4",
          "image": "https://i.ibb.co/sHDNMdH/box-2-1.png",
          "ID": "ID 1656449",
          "weight": "20 kg",
@@ -32,7 +32,7 @@
          "packingImg": "https://i.ibb.co/k3h1hSJ/Fourth-Box-1.png"
      },
      {
-         "_id": "05",
+         "_id": "5",
          "image": "https://i.ibb.co/sHDNMdH/box-2-1.png",
          "ID": "ID 1656450",
          "weight": "55 kg",

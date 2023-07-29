@@ -14,6 +14,7 @@ import PackingPlan2 from './components/PackingPlan2/PackingPlan2';
 import PackingPlan3 from './components/packingPlan3/PackingPlan3';
 import PackingPlan4 from './components/PackingPlan4/PackingPlan4';
 import PackingPlan5 from './components/PackingPlan5/PackingPlan5';
+import GreatJob from './components/GreatJob/GreatJob';
 
 const router = createBrowserRouter([
   {
@@ -33,24 +34,28 @@ const router = createBrowserRouter([
         element: <Selection></Selection>
       },
       {
-        path: "/packingPlan1/:id",
+        path: "/packingPlan1",
         element: <PackingPlan1></PackingPlan1>,
       },
       {
-        path: "/packingPlan2/:id",
+        path: "/packingPlan2",
         element: <PackingPlan2></PackingPlan2>
       },
       {
-        path: "/packingPlan3/:id",
+        path: "/packingPlan3",
         element: <PackingPlan3></PackingPlan3>
       },
       {
-        path: "/packingPlan4/:id",
+        path: "/packingPlan4",
         element: <PackingPlan4></PackingPlan4>
       },
       {
-        path: "/packingPlan5/:id",
+        path: "/packingPlan5",
         element: <PackingPlan5></PackingPlan5>
+      },
+      {
+        path: "/greatJob",
+        element: <GreatJob></GreatJob>
       },
     ]
   },
