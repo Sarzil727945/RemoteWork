@@ -15,11 +15,13 @@ import PackingPlan3 from './components/packingPlan3/PackingPlan3';
 import PackingPlan4 from './components/PackingPlan4/PackingPlan4';
 import PackingPlan5 from './components/PackingPlan5/PackingPlan5';
 import GreatJob from './components/GreatJob/GreatJob';
+import ErrorPage from './Laout/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
